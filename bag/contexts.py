@@ -2,6 +2,7 @@ from decimal import Decimal
 from django.conf import settings
 
 def bag_contents(request):
+    """create context to be available across the site"""
 
     bag_items = []
     total = 0
